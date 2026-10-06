@@ -36,8 +36,12 @@
 ### Установка
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kpako3rbp/green-api-max-chat.git
+```
+```
 cd green-api-chat
+```
+```
 npm install
 ```
 
