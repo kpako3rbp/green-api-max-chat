@@ -1,0 +1,28 @@
+:root {
+  --white-color: #fff;
+  --black-color: #191b1f;
+
+  --primary-color: #007aff;
+  --primary-color-50: rgba(61, 115, 172, 0.5);
+  --primary-hover-color: #087df0;
+
+  --caption-color: #777b85;
+  --description-color: #777b85;
+  --error-color: #b42318;
+  --success-color: #22c55e;
+
+  --border-color: #e8e9eb;
+
+  --secondary-text-color: #8b8f98;
+  --muted-text-color: #92969e;
+  --input-text-color: #3c3f44;
+  --placeholder-color: #9498a0;
+  --icon-color: #979ba4;
+
+  --input-background-color: #f1f2f4;
+  --hover-background-color: #f5f6f7;
+  --secondary-hover-background-color: #f2f3f5;
+  --active-background-color: #eaf4ff;
+
+  --outgoing-message-background-color: #dff3ff;
+}

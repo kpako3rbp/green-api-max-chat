@@ -1,0 +1,55 @@
+.message {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+
+  width: fit-content;
+  max-width: min(70%, 620px);
+  padding: 8px 10px 6px 12px;
+
+  border-radius: 14px;
+
+  font-size: 15px;
+  line-height: 20px;
+
+  box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+}
+
+.incoming {
+  align-self: flex-start;
+
+  background: var(--white-color);
+  border-bottom-left-radius: 4px;
+}
+
+.outgoing {
+  align-self: flex-end;
+
+  background: var(--outgoing-message-background-color);
+  border-bottom-right-radius: 4px;
+}
+
+.text {
+  min-width: 0;
+
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.meta {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 3px;
+
+  margin-bottom: -1px;
+
+  color: var(--secondary-text-color);
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.status {
+  color: var(--primary-color);
+  font-size: 12px;
+}

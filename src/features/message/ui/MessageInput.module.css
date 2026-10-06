@@ -1,0 +1,85 @@
+.form {
+  display: grid;
+  grid-template-columns: auto 32px;
+  align-items: center;
+
+  width: 100%;
+  max-width: 720px;
+  min-height: 48px;
+  margin: 0 auto;
+  padding: 4px 6px;
+
+  background: var(--white-color);
+  border-radius: 16px;
+
+  box-shadow: 0 1px 4px rgb(0 0 0 / 10%);
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  padding: 0 8px;
+
+  color: var(--black-color);
+  font-size: 15px;
+
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--caption-color)
+}
+
+.iconButton,
+.sendButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+  font-size: 22px;
+
+  cursor: pointer;
+}
+
+.iconButton {
+  color: var(--caption-color);
+
+  background: transparent;
+}
+
+.iconButton:hover {
+  background: var(--caption-color);
+}
+
+.sendButton {
+  color: var(--white-color);
+
+  background: var(--primary-color);
+}
+
+.sendButton:hover {
+  background: var(--primary-color);
+}
+
+.sendButton:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.error {
+  grid-column: 1 / -1;
+
+  padding: 4px 10px;
+
+  color: var(--error-color);
+  font-size: 12px;
+}

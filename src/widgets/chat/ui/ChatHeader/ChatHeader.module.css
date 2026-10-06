@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 64px;
+  padding: 0 18px;
+
+  background: var(--white-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  width: 40px;
+  height: 40px;
+
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--black-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.status {
+  margin-top: 2px;
+
+  color: var(--secondary-text-color);
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  padding: 0;
+
+  color: var(--black-color);
+
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.iconButton:hover {
+  background: var(--secondary-hover-background-color);
+}
+
+.connection {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-top: 2px;
+}
+
+.connectionDot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+}
+
+.connected {
+  background: var(--success-color)
+}
+
+.disconnected {
+  background: var(--error-color);
+}
+
+.connectionText {
+  color: var(--secondary-text-color);
+  font-size: 12px;
+}
