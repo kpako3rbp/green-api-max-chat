@@ -29,7 +29,6 @@
 - Zod
 - CSS Modules
 - Lucide React
--
 
 ## Запуск проекта
 
@@ -45,7 +44,7 @@ git clone https://github.com/kpako3rbp/green-api-max-chat.git
 ```
 
 ```
-cd green-api-chat
+cd green-api-max-chat
 ```
 
 ```
