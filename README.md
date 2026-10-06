@@ -26,6 +26,11 @@
 - CSS Modules
 - Lucide React
 
+
+### Demo
+
+Посмотреть демо можно [здесь](https://green-api-max-chat-rho.vercel.app/) (возможно потребуется VPN, так как деплой на Vercel)
+
 ## Запуск проекта
 
 ### Требования
