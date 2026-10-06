@@ -5,7 +5,7 @@
 
 ### Demo
 
-Посмотреть демо можно [здесь](https://green-api-max-chat-git-main-kpako3rbps-projects.vercel.app/)
+Посмотреть демо можно [здесь](https://green-api-max-chat-87sj3iznp-kpako3rbps-projects.vercel.app/)
 
 ## Возможности
 
