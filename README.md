@@ -3,6 +3,10 @@
 Тестовое задание на позицию Frontend Developer React.
 Приложение представляет собой минимальный веб-клиент для отправки и получения текстовых сообщений в MAX через GREEN-API.
 
+### Demo
+
+Посмотреть демо можно [здесь](https://green-api-max-chat-git-main-kpako3rbps-projects.vercel.app/)
+
 ## Возможности
 
 - авторизация по `idInstance` и `apiTokenInstance`;
@@ -25,11 +29,7 @@
 - Zod
 - CSS Modules
 - Lucide React
-
-
-### Demo
-
-Посмотреть демо можно [здесь](https://green-api-max-chat-rho.vercel.app/) (возможно потребуется VPN, так как деплой на Vercel)
+-
 
 ## Запуск проекта
 
@@ -43,9 +43,11 @@
 ```bash
 git clone https://github.com/kpako3rbp/green-api-max-chat.git
 ```
+
 ```
 cd green-api-chat
 ```
+
 ```
 npm install
 ```
