@@ -4,7 +4,7 @@
 
 ### Demo
 
-Посмотреть демо можно [здесь](https://green-api-max-chat-87sj3iznp-kpako3rbps-projects.vercel.app/) (возможно потребуется включить VPN).
+Посмотреть демо можно [здесь](https://green-api-max-chat-rho.vercel.app/) (возможно потребуется включить VPN).
 
 ## Возможности
 
